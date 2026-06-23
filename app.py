@@ -292,7 +292,7 @@ def build_pdf(book, sponsor, pax, flights, hotels, qr_png, qr_version=None):
     booking_rows = [
         [*pr("Our Ref. No.", book.get("our_ref")), *pr("Your Ref. No.", book.get("your_ref"))],
         [*pr("Booking Date", book.get("booking_date")), *pr("Issue Date", book.get("issue_date"))],
-        [*pr("Package Title", book.get("package_title")), *pr("Care Of", book.get("care_of"))],
+        [*pr("Hotel Name", book.get("package_title")), *pr("Care Of", book.get("care_of"))],
     ]
     booking_tbl = Table(booking_rows, colWidths=[3.0 * cm, 5.3 * cm, 3.0 * cm, 5.3 * cm])
     booking_tbl.setStyle(TableStyle([
