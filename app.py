@@ -182,7 +182,7 @@ def detect_base_url():
     """
     # 1) Hardcode your live app address here after you deploy, e.g.
     #    APP_URL = "https://internet-travels-voucher.streamlit.app"
-    APP_URL = ""
+    APP_URL = "https://internet-travels-voucher.streamlit.app"
     if APP_URL:
         return APP_URL.rstrip("/")
     if os.environ.get("BASE_URL"):
