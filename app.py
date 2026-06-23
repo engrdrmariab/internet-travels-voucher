@@ -498,7 +498,7 @@ def main():
         "your_ref":    b1.text_input("Your Ref. No.", ""),
         "booking_date": b2.text_input("Booking Date", "04-Jul-25"),
         "issue_date":  b2.text_input("Issue Date", "04-Jul-25"),
-        "package_title": b3.text_input("Package Title", "Madinah Hotel"),
+        "package_title": b3.text_input("Hotel Name", "Madinah Hotel"),
         "care_of":     b3.text_input("Care Of", "Mr. Toufique Ahmed Chandio"),
     }
 
